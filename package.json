@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "@architect/functions": "^5.3.3",
+    "@architect/sandbox": "^5.5.0",
     "@enhance/arc-plugin-enhance": "^4.4.1",
     "microformats-parser": "^1.4.1"
   },

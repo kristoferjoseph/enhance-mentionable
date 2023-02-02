@@ -1,4 +1,3 @@
-/** @type {import('@enhance/types').EnhanceElemFn} */
 export default function HCard({ html, state: { attrs } }) {
   const enableAuthor = typeof attrs?.['enable-author'] === 'string'
 
@@ -27,13 +26,13 @@ export default function HCard({ html, state: { attrs } }) {
       }
     </style>
 
-    ${enableAuthor ? `<span class="p-author hidden">Taylor Beseda</span>` : ''}
+    ${enableAuthor ? `<span class="p-author hidden">Kristofer Joseph</span>` : ''}
 
     <section class="h-card">
-      <img class="u-photo" src="https://github.com/tbeseda.png" alt="Taylor Beseda">
+      <img class="u-photo" src="https://github.com/kristoferjoseph.png" alt="Kristofer Joseph">
       <aside>
-        <a class="p-name u-url" href="https://tbeseda.com">Taylor Beseda</a><br>
-        <a class="u-email" href="mailto:taylor@begin.com">taylor@begin.com</a>
+        <a class="p-name u-url" href="https://kristoferjoseph.com">Kristofer Joseph</a><br>
+        <a class="u-email" href="mailto:kj@begin.com">kj@begin.com</a>
       </aside>
     </section>
   `
