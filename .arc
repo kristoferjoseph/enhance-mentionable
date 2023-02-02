@@ -17,4 +17,7 @@ webmentions
   targetPath *String
 
 @begin
-appID MBCJQZQF
+appID SW3W9QRH
+
+@aws
+runtime nodejs18.x
